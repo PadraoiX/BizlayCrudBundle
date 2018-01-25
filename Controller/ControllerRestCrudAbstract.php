@@ -7,10 +7,10 @@ use SanSIS\CrudBundle\Service\Exception\UniqueException;
 use SanSIS\CrudBundle\Service\Exception\ValidationException;
 use SanSIS\CrudBundle\Service\Exception\VerificationException;
 use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;
-use \Doctrine\ORM\Query;
-use \Doctrine\ORM\Tools\Pagination\Paginator;
-use \FOS\RestBundle\Controller\Annotations as Rest;
-use \SanSIS\BizlayBundle\Controller\ControllerAbstract;
+use Doctrine\ORM\Query;
+use Doctrine\ORM\Tools\Pagination\Paginator;
+use FOS\RestBundle\Controller\Annotations as Rest;
+use SanSIS\BizlayBundle\Controller\ControllerAbstract;
 
 /**
  * Classe que implementa um controller padrão para CRUDs

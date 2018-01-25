@@ -1,15 +1,15 @@
 <?php
 namespace SanSIS\CrudBundle\Controller;
 
-use \Doctrine\ORM\Query;
-use \Doctrine\ORM\Tools\Pagination\Paginator;
-use \SanSIS\BizlayBundle\Controller\ControllerAbstract;
-use \Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
-use \Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
-use \Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
-use \Symfony\Component\Config\Definition\Exception\Exception;
-use \Symfony\Component\Security\Core\Exception\InvalidCsrfTokenException;
-use \Symfony\Component\Security\Core\Exception\TokenNotFoundException;
+use Doctrine\ORM\Query;
+use Doctrine\ORM\Tools\Pagination\Paginator;
+use SanSIS\BizlayBundle\Controller\ControllerAbstract;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
+use Symfony\Component\Config\Definition\Exception\Exception;
+use Symfony\Component\Security\Core\Exception\InvalidCsrfTokenException;
+use Symfony\Component\Security\Core\Exception\TokenNotFoundException;
 
 /**
  * Classe que implementa um controller padrão para CRUDs

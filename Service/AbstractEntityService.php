@@ -2,13 +2,13 @@
 namespace SanSIS\CrudBundle\Service;
 
 use Doctrine\Common\Inflector\Inflector;
-use \Doctrine\ORM\Query;
-use \SanSIS\BizlayBundle\Entity\AbstractEntity as Entity;
-use \SanSIS\BizlayBundle\Service\AbstractService;
-use \SanSIS\BizlayBundle\Service\ServiceDto;
+use Doctrine\ORM\Query;
+use SanSIS\BizlayBundle\Entity\AbstractEntity as Entity;
+use SanSIS\BizlayBundle\Service\AbstractService;
+use SanSIS\BizlayBundle\Service\ServiceDto;
 use SanSIS\CrudBundle\Service\Exception\BusinessException;
-use \SanSIS\CrudBundle\Service\Exception\ValidationException;
-use \SanSIS\CrudBundle\Service\Exception\WrongTypeRootEntityException;
+use SanSIS\CrudBundle\Service\Exception\ValidationException;
+use SanSIS\CrudBundle\Service\Exception\WrongTypeRootEntityException;
 
 /**
  * Class AbstractEntityService
